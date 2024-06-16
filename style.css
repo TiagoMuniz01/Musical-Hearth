@@ -1,5 +1,22 @@
+body{
+    background-color: #F1F2F0;
+}
+
 #LOGO-Navbar{
     font-family: "Montserrat";
     color:#A2BC33;
     font-size: 25px;
+}
+
+h1{
+    font-family: "Montserrat";
+}
+
+h2{
+    font-family: "Montserrat";
+}
+
+p{
+    font-family: "Montserrat";
+    text-align: center;
 }
