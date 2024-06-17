@@ -40,23 +40,10 @@ p{
 }
 .galeria img {
     position: absolute; /* Define a posição absoluta para as imagens */
-    width: 50%; /* Define a largura das imagens */
+    width: 10%; /* Define a largura das imagens */
     height: auto; /* Ajusta a altura automaticamente para manter a proporção */
 }
-.galeria img:nth-child(4){
-    position: absolute; /* Define a posição absoluta para as imagens */
-    width: 25%; /* Define a largura das imagens */
-    height: auto; /* Ajusta a altura automaticamente para manter a proporção */
-    margin-top: 11.5%;
-    margin-left: 12.5%;
-}
-.galeria img:nth-child(5){
-    position: absolute; /* Define a posição absoluta para as imagens */
-    width: 47%; /* Define a largura das imagens */
-    height: auto; /* Ajusta a altura automaticamente para manter a proporção */
-    margin-top: 2.0%;
-    margin-left: 1.5%;
-}
+
 .conteudo-posterior {
     margin-top: 80%; /* Adiciona margem para distanciar o conteúdo posterior */
 }
