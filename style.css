@@ -4,19 +4,63 @@ body{
 
 #LOGO-Navbar{
     font-family: "Montserrat";
-    color:#A2BC33;
+    color:#1E3141 ;
     font-size: 25px;
 }
 
 h1{
     font-family: "Montserrat";
+    color:#1E3141 ;
 }
 
 h2{
     font-family: "Montserrat";
+    color:#1E3141 ;
 }
 
 p{
     font-family: "Montserrat";
     text-align: center;
+    color:#1E3141 ;
 }
+
+.imagem-container {
+    position: relative; /* Define a posição relativa para a container */
+    width: 100%; /* Mantém a largura da container */
+    height: 500%; /* Aumenta a altura da container em 5 vezes */
+    margin: 10% auto; /* Centraliza a container verticalmente */
+    border: 1px solid #000; /* Adiciona uma borda para visualização */
+    overflow: hidden; /* Esconde o conteúdo que ultrapassa a container */
+}
+.galeria {
+    position: absolute; /* Define a posição absoluta para a galeria */
+    width: 100%; /* Faz com que a galeria ocupe toda a largura da container */
+    height: 100%; /* Faz com que a galeria ocupe toda a altura da container */
+    margin-left: 27%;
+}
+.galeria img {
+    position: absolute; /* Define a posição absoluta para as imagens */
+    width: 50%; /* Define a largura das imagens */
+    height: auto; /* Ajusta a altura automaticamente para manter a proporção */
+}
+.galeria img:nth-child(4){
+    position: absolute; /* Define a posição absoluta para as imagens */
+    width: 25%; /* Define a largura das imagens */
+    height: auto; /* Ajusta a altura automaticamente para manter a proporção */
+    margin-top: 11.5%;
+    margin-left: 12.5%;
+}
+.galeria img:nth-child(5){
+    position: absolute; /* Define a posição absoluta para as imagens */
+    width: 47%; /* Define a largura das imagens */
+    height: auto; /* Ajusta a altura automaticamente para manter a proporção */
+    margin-top: 2.0%;
+    margin-left: 1.5%;
+}
+.conteudo-posterior {
+    margin-top: 80%; /* Adiciona margem para distanciar o conteúdo posterior */
+}
+.conteudo-anterior {
+    margin-bottom: -10%; /* Adiciona margem inferior para distanciar o conteúdo anterior */
+}
+
