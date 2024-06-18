@@ -24,29 +24,34 @@ p{
     color:#1E3141 ;
 }
 
-.imagem-container {
+#container-galeria {
     position: relative; /* Define a posição relativa para a container */
-    width: 100%; /* Mantém a largura da container */
-    height: 500%; /* Aumenta a altura da container em 5 vezes */
-    margin: 10% auto; /* Centraliza a container verticalmente */
-    border: 1px solid #000; /* Adiciona uma borda para visualização */
-    overflow: hidden; /* Esconde o conteúdo que ultrapassa a container */
+    width: 100%;
+    height: 300%;
+     /* Aumenta a altura da container em 5 vezes */
+    margin-bottom: 80%;
+    margin-top: 20%;
 }
 .galeria {
     position: absolute; /* Define a posição absoluta para a galeria */
     width: 100%; /* Faz com que a galeria ocupe toda a largura da container */
-    height: 100%; /* Faz com que a galeria ocupe toda a altura da container */
-    margin-left: 27%;
+    height: auto; /* Faz com que a galeria ocupe toda a altura da container */
+    margin: 0;
 }
 .galeria img {
-    position: absolute; /* Define a posição absoluta para as imagens */
-    width: 10%; /* Define a largura das imagens */
+    position: relative; /* Define a posição absoluta para as imagens */
+    width: 30%; /* Define a largura das imagens */
     height: auto; /* Ajusta a altura automaticamente para manter a proporção */
 }
 
-.conteudo-posterior {
-    margin-top: 80%; /* Adiciona margem para distanciar o conteúdo posterior */
+#sul{
+    position: absolute;
+    left: 0%;
+    top: 0%;
 }
+
+
+
 .conteudo-anterior {
     margin-bottom: -10%; /* Adiciona margem inferior para distanciar o conteúdo anterior */
 }
