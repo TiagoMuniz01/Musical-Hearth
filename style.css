@@ -2,66 +2,74 @@ body {
     body {
         background-color: #F1F2F0;
     }
-    
+
     #LOGO-Navbar {
         font-family: "Montserrat";
         color: #1E3141;
         font-size: 25px;
     }
-    
+
     h1 {
         font-family: "Montserrat";
         color: #1E3141;
     }
-    
+
     h2 {
         font-family: "Montserrat";
         color: #1E3141;
     }
-    
+
     p {
         font-family: "Montserrat";
         text-align: center;
         color: #1E3141;
     }
-    
+
     #galeria {
         height: 100%;
         width: 100%;
         position: relative;
         padding-top: 56.25%; /* Mantém a proporção 16:9 */
     }
-    
+
     #galeria img {
         position: absolute;
-        width: 20%;
-        height: auto;
         cursor: move;
     }
-    
+
     /* Posições das regiões para formar o mapa do Brasil */
     #norte {
-        top: 10%;
-        left: 30%;
+        width: 56%;
+        height: auto;
+        bottom: 52%;
+        left: 11%;
     }
-    
+
     #nordeste {
-        top: 20%;
-        left: 50%;
+        width: 27%;
+        height: auto;
+        bottom: 36%;
+        left:61%;
     }
-    
+
     #centroOeste {
-        top: 30%;
-        left: 40%;
+        width: 32%;
+        height: auto;
+        top: 25%;
+        left: 35%;
     }
-    
+
     #sudeste {
-        top: 40%;
-        left: 50%;
+        width: 28%;
+        height: auto;
+        top: 49%;
+        left: 51%;
     }
-    
+
     #sul {
-        top: 50%;
-        left: 40%;
+        width: 20%;
+        height: auto;
+        top: 80%;
+        left: 43%;
     }
-}  
+}
