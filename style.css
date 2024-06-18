@@ -1,35 +1,38 @@
 body {
     body {
-        background-color: #F1F2F0;
+        background-color: #fafafa;
     }
 
     #LOGO-Navbar {
-        font-family: "Montserrat";
+        font-family: "Poppins";
         color: #1E3141;
         font-size: 25px;
     }
 
     h1 {
-        font-family: "Montserrat";
+        font-family: "Poppins";
         color: #1E3141;
     }
 
     h2 {
-        font-family: "Montserrat";
+        font-family: "Poppins";
         color: #1E3141;
     }
 
     p {
-        font-family: "Montserrat";
-        text-align: center;
+        font-family: "Roboto";
+        text-align: left;
+        text-justify: initial;
         color: #1E3141;
     }
-
+    ul{
+        color: ;
+    }
     #galeria {
         height: 100%;
         width: 100%;
         position: relative;
-        padding-top: 56.25%; /* Mantém a proporção 16:9 */
+        padding-top: 100%; /* Mantém a proporção 16:9 */
     }
 
     #galeria img {
