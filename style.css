@@ -25,9 +25,23 @@ body {
         text-justify: initial;
         color: #1E3141;
     }
-    ul{
-        color: ;
+    /*Lista das regiões*/
+    #ln{
+        color: #e8cf59;
     }
+    #lno{
+        color: #eade72;
+    }
+    #mi{
+        color: #d6d277;
+    }
+    #so{
+        color: #b9c281;
+    }
+    #sou{
+        color: #9FAF8A;
+    }
+
     #galeria {
         height: 100%;
         width: 100%;
