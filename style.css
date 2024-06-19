@@ -51,7 +51,10 @@ body {
 
     #galeria img {
         position: absolute;
-        cursor: move;
+        cursor: pointer;
+    }
+    #galeria img:hover {
+        transform: scale(1.10);
     }
 
     /* Posições das regiões para formar o mapa do Brasil */
