@@ -1,14 +1,6 @@
 body {
-    body {
-        background-color: #fafafa;
-    }
-
-    #LOGO-Navbar {
-        font-family: "Poppins";
-        color: #1E3141;
-        font-size: 25px;
-    }
-
+    background-color: #fafafa;
+    
     h1 {
         font-family: "Poppins";
         color: #1E3141;
@@ -54,7 +46,7 @@ body {
         cursor: pointer;
     }
     #galeria img:hover {
-        transform: scale(1.10);
+        transform: scale(1.02);
     }
 
     /* Posições das regiões para formar o mapa do Brasil */
