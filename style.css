@@ -6,6 +6,10 @@ body {
         color: #1E3141;
     }
 
+    #bussola{
+        list-style-type: none;
+    }
+
     h2 {
         font-family: "Poppins";
         color: #1E3141;
