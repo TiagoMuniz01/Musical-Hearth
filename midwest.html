@@ -1,11 +1,287 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Musical Hearth - Midwest</title>
+    <!-- Fontes tipográficas -->
+    <!--Montserrat-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap"
+        rel="stylesheet">
+    <!--Roboto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!--Poppins-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- CSS nativo -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #esquerda #p {
+            margin-right: 17%;
+        }
+
+        #direita #p,
+        #direita h1 {
+            margin-left: 17%;
+        }
+
+        #col-text {
+            margin-top: 2%;
+        }
+
+        #p {
+            text-align: justify;
+        }
+
+        #imgcirculo {
+            width: 70%;
+            height: auto;
+        }
+
+        .btn {
+            background-color: transparent;
+            width: auto;
+            height: auto;
+            border-color: #EADE72;
+            border-width: 10%;
+            font-size: 100%;
+            color: black;
+            transition: transform 0.2s;
+            transform: scale(1.05);
+            margin-left: 2%;
+            font-weight: 400;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #EADE72;
+            border: 10% solid #EADE72;
+            color: white;
+            transform: scale(1.02);
+        }
+
+        @media (max-width: 768px) {
+
+            #esquerda #p,
+            #direita #p {
+                margin-right: 5% !important;
+                margin-left: 5% !important;
+                text-align: justify;
+            }
+
+            #esquerda h1,
+            #direita h1 {
+                margin-top: 2% !important;
+                margin-left: 0 !important;
+                margin-right: 0 !important;
+                text-align: center !important;
+            }
+
+            #imgcirculo {
+                width: 80% !important;
+                margin: 0 auto !important;
+            }
+
+            #esquerda img,
+            #direita img {
+                margin: 0 auto !important;
+            }
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Centro-Oeste</h1>
+    <header>
+        <section>
+            <div class="row" style="background-color:#F8F6EA;">
+                <div class="container justify-content-start">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="col-4">
+                            <a class="navbar-brand" href="index.html" style="margin-left: 10%;">
+                                <img src="imagens/logotipo/logo - MusicalHearth.svg" alt="Bootstrap" width="60%"
+                                    height="auto">
+                            </a>
+                        </div>
+                        <div class="col-7">
+                            <ul class="navbar navbar-expand-lg">
+                                <div class="col-md-6 offset-md-3">
+                                    <li class="nav-item dropdown" style="list-style-type: none;">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            <img src="imagens/rosa-dos-ventos.png" alt="rosa-dos-ventos" width="15%"
+                                                height="auto">
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="north.html">North</a></li>
+                                            <li><a class="dropdown-item" href="northeast.html">Northeast</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="midwest.html">Midwest</a></li>
+                                            <li><a class="dropdown-item" href="southeast.html">Southeast</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="south.html">South</a></li>
+                                        </ul>
+                                    </li>
+                                </div>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section>
+            <!--banner-->
+            <div class="row justify-content-center">
+                <div class="col">
+                    <a href="#"><img src="imagens/banners/banner-Notheast.png" alt="" width="100%"></a>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container-fluid">
+                <!--Botões de trocas-->
+                <div class="row">
+                    <div class="col">
+                        <a class="btn btn-warning btn-lg" href="northeast.html"
+                            style="background-color: #EADE72; color: white; margin-left: 5%;">
+                            <strong>Musical Genres</strong> <!--Selecionado-->
+                        </a>
+                        <a class="btn btn-warning btn-lg" href="northeastArtists.html">
+                            <strong>Artists</strong>
+                        </a>
+                        <a class="btn btn-warning btn-lg" href="northeastSongs.html">
+                            <strong>Songs</strong>
+                        </a>
+                    </div>
+                </div>
+                <br class="mt-5">
+                <br class="mt-5">
+                <br class="mt-5">
+                <br class="mt-5">
+                <br class="mt-5">
+                <!--Conteúdo-->
+                <!--1-->
+                <div class="row justify-content-center mt-5" id="esquerda">
+                    <div class="col-12 col-md-6 d-flex justify-content-center">
+                        <img id="imgcirculo" src="imagens/North/Generos Musicais/GeneroMusical - Lambada.png"
+                            alt="Lambada">
+                    </div>
+                    <div class="col-12 col-md-6" id="col-text">
+                        <h1><strong style="color: #EADE72;">1 - </strong>Lambada</h1>
+                        <br>
+                        <p id="p">Lambada is a musical genre that originated in Pará in the 1970s but gained greater
+                            success in the late 1980s. At the time, its daring music and dance moves with spins and
+                            acrobatics caught the attention of the world. Lambada has its roots in African and Latin
+                            American rhythms, such as salsa, merengue, and carimbó. These musical styles were brought by
+                            African slaves who were taken to Latin America during the colonial period. Over time, these
+                            rhythms blended with other genres like pop and rock, creating a unique and contagious sound.
+                        </p>
+                    </div>
+                </div>
+                <br div="mt-5">
+                <br div="mt-5">
+                <!--2-->
+                <div class="row justify-content-center mt-5" id="direita">
+                    <div class="col-12 col-md-6" id="col-text">
+                        <h1><strong style="color: #EADE72;">2 - </strong>Lambada</h1>
+                        <br>
+                        <p id="p">Lambada is a musical genre that originated in Pará in the 1970s but gained greater
+                            success in the late 1980s. At the time, its daring music and dance moves with spins and
+                            acrobatics caught the attention of the world. Lambada has its roots in African and Latin
+                            American rhythms, such as salsa, merengue, and carimbó. These musical styles were brought by
+                            African slaves who were taken to Latin America during the colonial period. Over time, these
+                            rhythms blended with other genres like pop and rock, creating a unique and contagious sound.
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-6 d-flex justify-content-center">
+                        <img id="imgcirculo" src="imagens/North/Generos Musicais/GeneroMusical - Lambada.png"
+                            alt="Lambada">
+                    </div>
+                </div>
+                <br div="mt-5">
+                <br div="mt-5">
+                <!--3-->
+                <div class="row justify-content-center mt-5" id="esquerda">
+                    <div class="col-12 col-md-6 d-flex justify-content-center">
+                        <img id="imgcirculo" src="imagens/North/Generos Musicais/GeneroMusical - Lambada.png"
+                            alt="Lambada">
+                    </div>
+                    <div class="col-12 col-md-6" id="col-text">
+                        <h1><strong style="color: #EADE72;">3 - </strong>Lambada</h1>
+                        <br>
+                        <p id="p">Lambada is a musical genre that originated in Pará in the 1970s but gained greater
+                            success in the late 1980s. At the time, its daring music and dance moves with spins and
+                            acrobatics caught the attention of the world. Lambada has its roots in African and Latin
+                            American rhythms, such as salsa, merengue, and carimbó. These musical styles were brought by
+                            African slaves who were taken to Latin America during the colonial period. Over time, these
+                            rhythms blended with other genres like pop and rock, creating a unique and contagious sound.
+                        </p>
+                    </div>
+                </div>
+                <br div="mt-5">
+                <br div="mt-5">
+
+                <!--4-->
+                <div class="row justify-content-center mt-5" id="direita">
+                    <div class="col-12 col-md-6" id="col-text">
+                        <h1><strong style="color: #EADE72;">4 - </strong>Lambada</h1>
+                        <br>
+                        <p id="p">Lambada is a musical genre that originated in Pará in the 1970s but gained greater
+                            success in the late 1980s. At the time, its daring music and dance moves with spins and
+                            acrobatics caught the attention of the world. Lambada has its roots in African and Latin
+                            American rhythms, such as salsa, merengue, and carimbó. These musical styles were brought by
+                            African slaves who were taken to Latin America during the colonial period. Over time, these
+                            rhythms blended with other genres like pop and rock, creating a unique and contagious sound.
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-6 d-flex justify-content-center">
+                        <img id="imgcirculo" src="imagens/North/Generos Musicais/GeneroMusical - Lambada.png"
+                            alt="Lambada">
+                    </div>
+                </div>
+                <br div="mt-5">
+                <br div="mt-5">
+            </div>
+        </section>
+    </main>
+    <br div="mt-5">
+    <br div="mt-5">
+    <br div="mt-5">
+    <br div="mt-5">
+    <br div="mt-5">
+    <br div="mt-5">
+    <br div="mt-5">
+    <br div="mt-5">
+    <br div="mt-5">
+    <br div="mt-5">
+    <div clas="container text-center">
+        <div class="row mt-5" data-bs-theme="bg-light" style="background-color: #EADE72">
+            <div class="col">
+                <footer class="d-flex flex-wrap justify-content-around align-items-center py-4 my-4">
+                    <p class="col-md-4 mb-0 text-body-secondary" style="text-align: center;">© 2024 Musical Hearth</p>
+                </footer>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
